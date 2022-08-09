@@ -1,7 +1,7 @@
 <h1>Water Jug Challenge Machine</h1>
 <a href="https://water-jug-challenge.vercel.app/">Application Link</a>
 <h2>Get Start</h2>
-<p>If you want to run the application locally you can start cloning it by HTTTPS or SSH as you wish</p>
+<p>If you want to run the application locally you can start cloning it by HTTPS or SSH as you wish</p>
 <br/>
 <p><strong>"git clone https://github.com/luizvictor19/Water-Jug-Challenge.git"</strong> or <strong>"git clone git@github.com:luizvictor19/Water-Jug-Challenge.git"</strong></p>
 <br/>
