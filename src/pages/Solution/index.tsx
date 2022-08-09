@@ -52,7 +52,7 @@ const Solution = () => {
     <SolutionContainer>
       <div className="inputs-and-buttons">
         <>
-        <button className="home-page-button" onClick={() => navigate("/")}>
+          <button className="home-page-button" onClick={() => navigate("/")}>
             Home Page
           </button>
           <div className="inputs-container">
@@ -60,7 +60,10 @@ const Solution = () => {
             <Input placeholder="Bucket 2" setValue={setBucketY} />
             <Input placeholder="Measure Wanted" setValue={setMeasureWanted} />
           </div>
-          <button className="calculate-button" onClick={() => handleCalculateClick()}>
+          <button
+            className="calculate-button"
+            onClick={() => handleCalculateClick()}
+          >
             Calculate Steps
           </button>
           {!noSolution && !initialState && <p>{steps.length} Steps</p>}

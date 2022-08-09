@@ -53,4 +53,4 @@ table {
 :root {
 	--blue: #6EF0D6;
 }
-`
+`;

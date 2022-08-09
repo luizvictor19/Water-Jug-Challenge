@@ -22,7 +22,7 @@ export const StyledInput = styled.input`
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 
   ::-webkit-inner-spin-button,
   ::-webkit-outer-spin-button {
@@ -34,12 +34,12 @@ export const StyledInput = styled.input`
 `;
 
 export const StyledDiv = styled.div`
-position: relative;
-    img {
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        margin: 7px 5px 0 0;
-        right: 0;
-    }
-`
+  position: relative;
+  img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 7px 5px 0 0;
+    right: 0;
+  }
+`;

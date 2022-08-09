@@ -6,10 +6,10 @@ const Home = () => {
 
   return (
     <HomeContainer>
-        <div>
-          <h1>Water Jug Challenge Machine</h1>
-          <button onClick={() => navigate("/solution")}>Use</button>
-        </div>
+      <div>
+        <h1>Water Jug Challenge Machine</h1>
+        <button onClick={() => navigate("/solution")}>Use</button>
+      </div>
     </HomeContainer>
   );
 };
